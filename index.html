@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>drag'n drop</title>
+</head>
+<body>
+    <form action="#" id="add">
+        <input type="text" placeholder="Title" name="title">
+        <input type="text" placeholder="Description" name="description">
+        <select name="status" id="select">
+            <option data-id="0">todo</option>
+            <option data-id="1">inprogress</option>
+            <option data-id="2">done</option>
+        </select>
+        <button>Add task</button>
+    </form>
+    
+    <div class="empty">
+        <span>todo</span>
+
+    </div>
+    <div class="empty">
+        <span>inprogress</span>
+        
+    </div>
+    <div class="empty">
+        <span>done</span>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
